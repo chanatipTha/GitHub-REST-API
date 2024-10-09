@@ -1,0 +1,56 @@
+.container {
+    display: flex; /* ใช้ flex เพื่อจัดเรียง */
+    margin: 20px; /* ระยะห่างรอบ ๆ */
+}
+
+.user-info {
+    display: flex; /* จัดให้แนวนอน */
+    align-items: center; /* จัดให้รูปภาพและชื่ออยู่ตรงกลาง */
+    flex: 1; /* ให้มีพื้นที่ครึ่งหนึ่ง */
+    margin-right: 20px; /* ระยะห่างขวา */
+}
+
+.avatar {
+    border-radius: 50%; /* ทำให้รูปเป็นวงกลม */
+    width: 100px; /* ขนาดรูป */
+    height: 100px; /* ขนาดรูป */
+    margin-right: 20px; /* ระยะห่างขวาจากรูป */
+}
+
+.repos {
+    flex: 2; /* ให้มีพื้นที่มากกว่าฝั่งซ้าย */
+    overflow-y: auto; /* ถ้ามีจำนวนมากเกินไปให้เลื่อน */
+}
+
+.repo {
+    margin-bottom: 15px; /* ระยะห่างระหว่าง repo */
+}
+
+.repo-name {
+    max-width: 250px;
+    overflow-wrap: break-word;
+    white-space: normal;
+    margin: 0;
+}
+
+.download-button {
+    margin-top: 5px; /* ระยะห่างบน */
+}
+
+.download-btn {
+    padding: 5px 10px; /* ขนาดปุ่ม */
+    background-color: #007bff; /* สีพื้นหลัง */
+    color: white; /* สีข้อความ */
+    border: none; /* ไม่มีกรอบ */
+    border-radius: 4px; /* มุมโค้ง */
+    cursor: pointer; /* แสดงเป็นมือเมื่อวางเมาส์ */
+}
+
+.error-message {
+    color: red; /* สีข้อความผิดพลาด */
+    margin-top: 10px; /* ระยะห่างบน */
+}
+
+.repo-title {
+    margin-bottom: 10px; /* ระยะห่างด้านล่างของชื่อคลังเก็บ */
+}

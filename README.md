@@ -41,22 +41,3 @@ This will open the application in your default browser at http://localhost:3000.
 2.Click the "Search" button to fetch the user's profile and repositories.
 3.View the user information and repository details on the next page.
 4.Optionally, click the "Download" button next to any repository to download it as a ZIP file.
-
-#Project Structure
-
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── UserSearch.jsx
-│   │   └── UserInfo.jsx
-│   ├── App.js
-│   ├── index.js
-│   └── UserSearch.css
-├── .gitignore
-├── package.json
-├── README.md
-└── package-lock.json
--UserSearch.jsx: The main component for searching GitHub users.
--UserInfo.jsx: The component for displaying user profile and repositories.
--Header.jsx: Navigation header of the application.

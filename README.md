@@ -43,6 +43,7 @@ This will open the application in your default browser at http://localhost:3000.
 4.Optionally, click the "Download" button next to any repository to download it as a ZIP file.
 
 #Project Structure
+
 ├── public/
 ├── src/
 │   ├── components/
